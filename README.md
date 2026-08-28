@@ -67,7 +67,7 @@ Pour l'utiliser :
 ## Verification
 
    terraform output
-   curl http://URL_DE_L_ALB/
+   curl http://URL de alb/
    curl http://projet.local/
    kubectl get all -n projet
 
