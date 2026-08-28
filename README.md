@@ -87,3 +87,11 @@ Pour l'utiliser :
 - Kyverno refuse tout pod utilisant le tag latest.
 - Une NetworkPolicy limite l'acces aux pods web depuis l'Ingress.
 - Le fichier d'etat Terraform et les identifiants ne sont pas versionnes.
+
+## Ameliorations possibles
+
+- Etat Terraform sur un backend distant S3, partage entre le poste et Jenkins.
+- Signature des images avec Cosign et verification a l'admission par Kyverno.
+- Generation d'un SBOM a chaque build pour repondre plus vite aux nouvelles failles.
+- Detection a l'execution avec Falco : alerte sur les comportements anormaux dans un conteneur.
+- Politiques reseau de niveau applicatif avec Cilium, et visualisation des flux avec Hubble.
