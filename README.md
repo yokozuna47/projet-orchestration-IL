@@ -5,6 +5,10 @@ Les deux cibles sont decrites en Terraform et deployees par un pipeline Jenkins 
 
 Auteurs : Issiakha et Lucas
 
+## Architecture
+
+![Architecture du projet](docs/schema-architecture.png)
+
 ## Prerequis
 
 - Terraform
